@@ -9,7 +9,7 @@
 }
 
 body {
-  background: #8758ff;
+  background-image: linear-gradient(to left, #8758ff, #644acd, #463a9c, #2d2a6d, #1a1a40);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,14 +46,15 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #8758ff;
+  background-image: linear-gradient(to right, #8758ff, #644acd, #463a9c, #2d2a6d, #1a1a40);
+
   color: #fff;
   padding: 0.75rem 1rem;
   border-radius: 5px;
   margin-bottom: 1rem;
   cursor: pointer;
   box-shadow: 0 3px 10px rgb(0 0 0 / 41.2)
-  
+
 }
 .btn button {
   display: inline-block;
@@ -87,12 +88,7 @@ body {
 
 
 
-body {
-  background: #8758ff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+ 
 
 .App {
   text-align: center;
@@ -103,7 +99,7 @@ h1 {
   margin-bottom: 0.5rem;
   font-size: 1.75rem;
 }
-
+   
 .TodoWrapper {
   background: #1A1A40;
   margin-top: 5rem;
