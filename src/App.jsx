@@ -22,7 +22,7 @@ function App() {
   return (
     <ThemeProvider theme={DarkTheme} >
       <Box bgcolor={'background.default'} color={'text.primary'}>
-        <NavBar 
+        <NavBar  
         displayLeftBar={displayLeftBar} 
         setDisplayLeftBar={setDisplayLeftBar} 
         />

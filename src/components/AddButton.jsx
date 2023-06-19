@@ -80,7 +80,7 @@ export default AddButton
 
 const StyledModal = styled(Modal)({
     display: 'flex'
-    , justifyContent: 'center'
+    , justifyContent: 'center' 
     , alignItems: 'center'
 })
 
